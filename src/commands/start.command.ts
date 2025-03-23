@@ -1,5 +1,5 @@
 import { Command } from "./command.class"
-import { Markup, Telegraf } from "telegraf"
+import { Telegraf } from "telegraf"
 import { IBotContext } from "../context/context.interface"
 import { IKeyboard } from "../keyboards/keyboard.interface"
 
