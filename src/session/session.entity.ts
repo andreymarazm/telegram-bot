@@ -6,11 +6,6 @@ export class Session {
     @PrimaryColumn()
     id: string = ''
 
-    @Column("jsonb")
-    data: SessionData = SessionDataEntity
+    @Column("data")
+    data: SessionData = {}
 }
-
-export class SessionDataEntity {
-    @Column()
-    name: string = ''
-  }
